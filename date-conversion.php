@@ -1,3 +1,5 @@
+<?php
+
 // return 4 type of data, following var $t
 // return in 2 lang, it and en, following $lang
 function datax($d,$lang,$t){
@@ -51,3 +53,5 @@ if ($t=="A") {return $dx[0]; }
 }
 
 //echo datax("2016-01-03","it","C");
+
+?>
